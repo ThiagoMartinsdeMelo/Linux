@@ -40,8 +40,8 @@ edac_core              46685  1 i7core_edac
 
 <p>You will see:</p>
 
-The error count will be since last reboot. So, if you reboot the machine, all counters will reset.
++ The error count will be since last reboot. So, if you reboot the machine, all counters will reset.
 
-The count is dynamically generated, but counted in order. That means for example if I pull the ram in mc1 / csrow2, when I reboot the server, that slot will be "filled" by mc1 / csrow3, and mc1 / csrow3 will not appear. So you will only have one chance. You must have a clear idea of what each memory controller and memory slot is.
++ The count is dynamically generated, but counted in order. That means for example if I pull the ram in mc1 / csrow2, when I reboot the server, that slot will be "filled" by mc1 / csrow3, and mc1 / csrow3 will not appear. So you will only have one chance. You must have a clear idea of what each memory controller and memory slot is.
 
 <p>You can get help from <strong>"dmidecode -t memory"</strong> (or dmidecode -t 16) command. It will print usefull information, like channel, slot and part number, in order to identify the corrupted memory dimm.</p>
