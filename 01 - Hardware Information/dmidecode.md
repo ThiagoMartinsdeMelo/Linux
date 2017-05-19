@@ -1,6 +1,6 @@
 ## Utility terminal that informe about hardware
 
-Installation
+<p>Installation</p>
 
 #### Debian/Ubuntu/Linux Mint
 
