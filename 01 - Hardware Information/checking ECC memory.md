@@ -1,4 +1,4 @@
-## Stands for "Error Detection and Correction"
+## Memory Stands for "Error Detection and Correction"
 
 <p>Installation</p>
 
