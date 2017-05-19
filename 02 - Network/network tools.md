@@ -9,5 +9,22 @@
 
 ![netstat](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/network/netstat.png)
 
+Options to netstat, some of the more useful are: 
+
+```
+-a  => to show ALL the open ports and not only those already connected;
+-p  => to identify the program that opened the port; 
+-t   => TCP;
+-u => UDP; 
+-n => show the port number instead of the port name. 
+```
+
+```
+# netstat -aptn
+```
+
+![netstat](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/network/netstat.png)
+
+
 
 
