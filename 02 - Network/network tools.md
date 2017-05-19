@@ -23,7 +23,7 @@ Options to netstat, some of the more useful are:
 # netstat -aptn
 ```
 
-![netstat](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/network/netstat.png)
+![netstat](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/network/netstat2.png)
 
 
 
