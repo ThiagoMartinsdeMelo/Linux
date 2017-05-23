@@ -9,5 +9,5 @@
 
 #### 02 - Network
 ***
-###### [2.1 - Network Tools](https://goo.gl/yYmoYNs)
+###### [2.1 - Network Tools](https://goo.gl/Oi5WYZ)
 ###### [2.2 - Subnet Masks](https://goo.gl/kZTqbe)
