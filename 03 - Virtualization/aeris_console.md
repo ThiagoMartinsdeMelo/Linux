@@ -27,3 +27,29 @@
 |    cancel   | veid | cancel a VE (stops VE, doesn't delete data) |
 |    veinfo   | veid | prints memory/hd/configuration of a VE      |
 | action      | veid | print any queued actions for a VE           |
+
+
+| command |            |       description       |
+|:-------:|------------|:-----------------------:|
+| setlock | true|false | lock or unlock a server |
+
+
+| command |                             | description             |
+|---------|-----------------------------|-------------------------|
+| change  | veid setting value          | lock or unlock a server |
+|         | valid settings for KVM/XEN: | cpu                     |
+|         |                             | mem                     |
+|         |                             | vnc_password            |
+|         |                             | boot_order              |
+|         |                             | iso                     |
+|         |                             | sshport                 |
+|         | valid settings for OpenVZ:  | cpu                     |
+|         |                             | mem                     |
+|         |                             | mem_burst               |
+|         |                             | ip_add                  |
+|         |                             | ip_delete               |
+|         |                             | disk                    |
+|         |                             | hostname                |
+|         |                             | root_pass               |
+|         |                             | num_proc                |
+|         |                             | sshport                 |
