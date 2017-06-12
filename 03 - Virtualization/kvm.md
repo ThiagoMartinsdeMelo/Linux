@@ -1,6 +1,6 @@
 # KVM
 
-### Aeris Console
+### Commands
 
 |     help     |              show this help message             |
 |:------------:|:-----------------------------------------------:|
@@ -11,9 +11,6 @@
 |     isos     | list all isos on the node                       |
 |    deploy    | deploy a new VE                                 |
 | volumegroups | show valid volume groups on KVM/XEN nodes       |
-
-
-### KVM
 
 
 |   command   |      |                 description                 |
