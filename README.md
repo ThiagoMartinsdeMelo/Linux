@@ -18,4 +18,4 @@
 
 #### 04 - Partitions and Filesystems
 ***
-###### [4.1 - fsck](https://goo.gl/shQdUK)
+###### [4.1 - fdisk](https://goo.gl/shQdUK)
