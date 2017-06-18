@@ -16,6 +16,6 @@
 ***
 ###### [3.1 - KVM Commands](https://goo.gl/Z3LfYU)
 
-#### 04 - Hardware Information
+#### 04 - Partitions and Filesystems
 ***
-###### [4.1 - Partitions and Filesystems]()
+###### [4.1 - fsck](https://goo.gl/shQdUK)
