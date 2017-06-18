@@ -15,3 +15,7 @@
 #### 03 - Virtualization
 ***
 ###### [3.1 - KVM Commands](https://goo.gl/Z3LfYU)
+
+#### 04 - Hardware Information
+***
+###### [4.1 - Partitions and Filesystems]()
