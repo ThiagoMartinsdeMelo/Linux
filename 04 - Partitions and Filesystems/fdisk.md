@@ -32,7 +32,7 @@
 # fdisk /dev/sdb
 ```
 
-![fdisk /dev/sdb](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/01.fdisk-lgrepDisk.png)
+![fdisk -dev-sdb](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/02.fdisk-dev-sdb%20-%20Copia.png)
 
 <p>Viewing details about the created partition: </p>
 
@@ -40,7 +40,7 @@
 # fdisk -l /dev/sdb
 ```
 
-![fdisk /dev/sdb](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/01.fdisk-lgrepDisk.png)
+![fdisk -l-dev-sdb](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/03.fdisk-l-dev-sdb.png)
 
 <p>The number 1 means that it is the first partition inside the sdb disk</p>
 
@@ -49,8 +49,7 @@
 ```
 # mkfs.ext4 /dev/sdb1
 ```
-![mkfs.ext4 /dev/sdb1](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/01.fdisk-lgrepDisk.png)
-
+![mkfs.ext4 -dev-sdb1](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/04.mkfs-ext4-dev-sdb-1.png)
 
 <p>Creating mount point for the new disk /: </p>
 
@@ -70,7 +69,7 @@
 # df -h
 ```
 
-![mkfs.ext4 /dev/sdb1](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/01.fdisk-lgrepDisk.png)
+![df-h](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/05.df-h.png)
 
 <p>To avoid that the mount point is lost after reboot of the machine we must do the following, get the UUID of the storage device from our partition: </p>
 
@@ -78,12 +77,14 @@
 # blkid
 ```
 
+![blkid](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/06.blkid.png)
+
 <p>Then insert the UUID of the / dev / sdb1 partition into the <strong>/etc/fstab</strong> file: </p>
 
 ```
-# vi /etc/fstab
+# vim /etc/fstab
 ```
-
+![vi etc-fstab](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/7.vim-etc-fstab.png)
 
 
 
