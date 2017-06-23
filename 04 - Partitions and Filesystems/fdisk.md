@@ -42,7 +42,7 @@
 
 ![fdisk -l-dev-sdb](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/03.fdisk-l-dev-sdb.png)
 
-<p>The number 1 means that it is the first partition inside the sdb disk</p>
+<p>The number 1 means that it is the first partition inside the sdb disk.</p>
 
 <p>Forming the partition for use: </p>
 
