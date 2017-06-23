@@ -21,7 +21,7 @@
 <p>List of installed disk devices:</p>
 
 ```
-# fdisk -l | grepDisk
+# fdisk -l | grep Disk
 ```
 
-![fdisk-l|grepDisk]()
+![fdisk-l|grepDisk](https://github.com/ThiagoMartinsdeMelo/Linux/blob/master/img/partitions/01.fdisk-lgrepDisk.png)
