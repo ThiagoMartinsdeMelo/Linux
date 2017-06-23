@@ -18,4 +18,10 @@
 |    w    | exit fdisk and writes changes      |
 |    m    | showing command help               |
 
+<p>List of installed disk devices:</p>
 
+```
+# fdisk -l | grepDisk
+```
+
+![fdisk-l|grepDisk]()
