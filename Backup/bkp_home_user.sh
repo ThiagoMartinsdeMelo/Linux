@@ -32,5 +32,5 @@ then
 fi
 
 echo "Criando Backup..."
-ARQ="backup_home_$(date +%Y%m%d%H%M)"
+ARQ="backup_home_$(date +%Y%m%d%H%M).tgz"
 
