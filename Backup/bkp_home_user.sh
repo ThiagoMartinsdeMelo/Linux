@@ -35,3 +35,8 @@ echo "Criando Backup..."
 ARQ="backup_home_$(date +%Y%m%d%H%M).tgz"
 
 tar zcvpf $DIRDEST/$ARQ --absolute-names --exclude="$HOME/Google Drive" --exclude="$HOME/Videos" --exclude="$DIRDEST" "$HOME"/* > /dev/null
+
+echo
+echo "Backup $ARQ criado no diretório $DIRDEST."
+
+exit 0
